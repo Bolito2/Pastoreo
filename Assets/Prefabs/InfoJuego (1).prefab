@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 475956}
+  - 114: {fileID: 11439150}
+  - 114: {fileID: 11424562}
+  m_Layer: 0
+  m_Name: InfoJuego (1)
+  m_TagString: Info
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475956
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.91715717, y: 6.99468136, z: -3.20000005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11424562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c5da0991d2b8b4a878ffebd1335292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Trabuco:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Pistola:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Metralleta:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Escopeta:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Ametralladora:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Bazooka:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+  Lanzamisiles:
+    id: 0
+    nombre: 
+    TiempoRecargaArma: 0
+    balasCargadorMax: 0
+    dispersion: 0
+    velocidadbala: 0
+    tiempoEntreBalas: 0
+    numBalas: 0
+    "da\xF1oMax": 0
+    "da\xF1oMin": 0
+    skin: 
+--- !u!114 &11439150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f106a6e38891ca54ba633fdd04b60b12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: 0
+  textoPrueba: {fileID: 0}
+  textoPrefab: {fileID: 11403938, guid: ccea18f743b8f024c9ff09ea6f87bd6d, type: 2}
+  armas: {fileID: 0}
+  ArmaSeleccionada: 0
+  longitudArray: 0
+  aceleracion: 150
+  multiplicador: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 125848}
+  m_IsPrefabParent: 1

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Suelo
+  - DestruyeBalas
+  - Bala
+  - DestruyeEdificios
+  - Enemigo
+  - Personaje
+  - DestructorEnemigos
+  - Canvas
+  - TextoFlotante
+  - Info
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Suelo
+  - Vacio
+  - Final
+  - Personaje
+  - Bala
+  - Enemigo
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Suelo
+    uniqueID: 2525578589
+    locked: 0
+  - name: Enemigo
+    uniqueID: 2587351219
+    locked: 0
+  - name: Bala
+    uniqueID: 3084969485
+    locked: 0
+  - name: Brazo
+    uniqueID: 3648735929
+    locked: 0
+  - name: Personaje
+    uniqueID: 1462333367
+    locked: 0
